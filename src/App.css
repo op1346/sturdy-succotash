@@ -2,8 +2,8 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .App {
-  width: 90%;
-  margin: 10rem auto;
+  width: 95%;
+  margin: 1rem auto;
   height: 100%;
 }
 
@@ -15,12 +15,17 @@
 .slide {
   transform: scale(0.7);
   transition: transform 300ms;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .activeSlide {
-  transform: scale(1.1);
+  transform: scale(1.0);
   opacity: 1;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
 }
 
 .arrow {

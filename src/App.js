@@ -51,6 +51,9 @@ function App() {
           </div>
         ))}
       </Slider>
+      <div clasName="buy">
+        <button>Buy</button>
+      </div>
       <div className="footer"></div>
     </div>
   );
